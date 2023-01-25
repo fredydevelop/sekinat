@@ -248,7 +248,7 @@ def multi(input_data):
             dfinput["insured_occupation"]=1
     else:
         dfinput["insured_occupation"]=0
-    X_getam=dfinput.drop(["fraud_reported","age","policy_annual_premium","capital-gains","capital-loss","umbrella_limit","insured_relationship","total_claim_amount"],axis=1)
+    X_getam=dfinput.drop(["age","policy_annual_premium","capital-gains","capital-loss","umbrella_limit","insured_relationship","total_claim_amount"],axis=1)
 
 
 
